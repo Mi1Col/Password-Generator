@@ -1,11 +1,31 @@
 # Password-Generator
- A simple password generator in C++
 
- The user can choose the legth of the password and 
- if the generator will use uppercase, lowercase, numbers, 
- and special character.
- Then the program will ask the user if wants to save the password, and it will ask a name for the password,
- before the password will be saved. (Per default in: "/home/miguel/contrasenas.txt". You can change it by changing the adress variable).
+A simple password generator in **C++**.
 
- All the code an the comments are in spanish.
- Sorry if I made a mistake while writting this in english.
+---
+
+## Features
+
+- The user can choose:
+  - The length of the password.
+  - Whether the password will include:
+    - Uppercase letters.
+    - Lowercase letters.
+    - Numbers.
+    - Special characters.
+- The program will ask the user if they want to **save the password**.
+- If the user chooses to save it, they will be prompted to provide a **name for the password** before saving.
+- By default, passwords are saved in:  
+  `"/home/miguel/contrasenas.txt"`  
+  *(You can change this by modifying the `adress` variable in the code).*
+
+---
+
+## Notes
+
+- All the code and comments are in **Spanish**.
+- Apologies if I made any mistakes while writing this README in English.
+
+---
+
+Thank you for using the password generator! 🚀
