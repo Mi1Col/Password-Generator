@@ -18,7 +18,16 @@ A simple password generator in **C++**.
 - By default, passwords are saved in:  
   `"/home/miguel/contrasenas.txt"`  
   *(You can change this by modifying the `adress` variable in the code).*
-
+---
+## How to Compile
+On Linux:
+```bash
+g++ -o password-generator password-generator.cpp
+```
+On Windows:
+```bash
+g++ -o password-generator.exe password-generator.cpp
+```
 ---
 
 ## Notes
