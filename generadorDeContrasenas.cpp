@@ -7,6 +7,7 @@
 
 class GeneradorContrasena {
 	public:
+		std::string adress = "/home/miguel/contrasenas.txt";
 		std::string mayusculas = "QWERTYUIOPASDFGHJKLMNBVCXZ";
 		std::string minusculas = "qwertyuiopasdfghjklmnbvcxz";
 		std::string numeros = "1234567890";
@@ -47,7 +48,7 @@ class GeneradorContrasena {
 		};
 
 		void guardarContrasena(const std::string& contrasena) {
-			std::ofstream archivo("/home/miguel/contrasenas.txt");
+			std::ofstream archivo(adress);
 			if (guardar_contrasena && archivo.is_open()) {
 				archivo << asignar_nombre << ": " << contrasena << std::endl;
 				archivo.close();
