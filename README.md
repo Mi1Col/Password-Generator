@@ -16,7 +16,7 @@ A simple password generator in **C++**.
 - The program will ask the user if they want to **save the password**.
 - If the user chooses to save it, they will be prompted to provide a **name for the password** before saving.
 - By default, passwords are saved in:  
-  `"/home/miguel/contrasenas.txt"`  
+  `"/home/Passwords/password.txt"`  
   *(You can change this by modifying the `adress` variable in the code).*
 ---
 ## How to Compile

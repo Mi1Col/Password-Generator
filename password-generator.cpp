@@ -7,7 +7,7 @@
 
 class GeneradorContrasena {
 	public:
-		std::string adress = "/home/miguel/contrasenas.txt";
+		std::string adress = "/home/Passwords/password.txt";
 		std::string mayusculas = "QWERTYUIOPASDFGHJKLMNBVCXZ";
 		std::string minusculas = "qwertyuiopasdfghjklmnbvcxz";
 		std::string numeros = "1234567890";
